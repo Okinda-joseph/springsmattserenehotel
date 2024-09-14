@@ -91,7 +91,7 @@
                     <h6 class="title">Indulge in cultural heritage of maasai</h6>
                   </div>
                   <div class="box-text">
-                    <p>Nestled in the heart of a historically rich landscape with  a unique blend of heritage charm and modern luxury.</p>
+                    <p>Nestled in the heart of a historically rich landscape with a unique blend of heritage charm and modern luxury.</p>
                   </div>
                 </div>
               </div>
@@ -194,7 +194,7 @@
               </div>
               <div class="text-wrap">
                 <p class="card-text">
-                Welcome to exquisite adventure rooms where comfort and luxury harmoniously blend to create an unforgettable stay. Designed with the discerning traveler in mind, this room offers a serene and elegant sanctuary for those seeking relaxation and rejuvenation.
+                  Welcome to exquisite adventure rooms where comfort and luxury harmoniously blend to create an unforgettable stay. Designed with the discerning traveler in mind, this room offers a serene and elegant sanctuary for those seeking relaxation and rejuvenation.
                 </p>
               </div>
               <div class="button-wrap mt-3"><a class="btn-text" href="./room.php">Learn more</a></div>
