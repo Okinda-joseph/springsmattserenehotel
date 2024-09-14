@@ -27,7 +27,7 @@
         <div class="row">
           <div class="col-12">
             <div class="title-wrap">
-              <h1 class="title display-3 text-capitalize text-white">Accommodation</h1>
+              <h1 class="title display-3 text-capitalize text-white">Accommodations</h1>
             </div>
           </div>
         </div>
