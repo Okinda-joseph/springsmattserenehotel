@@ -194,7 +194,7 @@
               </div>
               <div class="text-wrap">
                 <p class="card-text">
-                  Hotel health club provides guests with access to a wide range of fitness amenities and wellness services. Unlike a standard hotel gym, a health club typically offers a more extensive array of features aimed at promoting holistic well-being.
+                Welcome to exquisite adventure rooms where comfort and luxury harmoniously blend to create an unforgettable stay. Designed with the discerning traveler in mind, this room offers a serene and elegant sanctuary for those seeking relaxation and rejuvenation.
                 </p>
               </div>
               <div class="button-wrap mt-3"><a class="btn-text" href="./room.php">Learn more</a></div>
