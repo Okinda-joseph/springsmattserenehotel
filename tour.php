@@ -186,11 +186,11 @@
         <div class="col-lg-4 col-sm-6">
           <div class="card">
             <div class="card-img-box">
-              <img src="./assets/offers/caption (16).jpg" class="card-img-top" alt="">
+              <img src="./assets/offers/caption (16).jpg" class="card-img-top" alt="tour-family-suite">
             </div>
             <div class="card-body">
               <div class="title-wrap">
-                <h5 class="card-title title">spa health club</h5>
+                <h5 class="card-title title">health club</h5>
               </div>
               <div class="text-wrap">
                 <p class="card-text">
