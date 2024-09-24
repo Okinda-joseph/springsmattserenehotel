@@ -16,10 +16,75 @@
   <link rel="shortcut icon" href="./assets/icons/logo.jpeg" type="image/x-icon">
 </head>
 
-<body>
-  <?php
-  include("components/header.html");
-  ?>
+<body data-bs-spy="scroll" data-bs-target=".navbar-nav">
+    <!-- HEADER -->
+    <header>
+      <div class="top-nav">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-auto">
+              <p>
+                <i class="bx bx-envelope"></i>
+                <span><a href="mailto:springsmattserenehotel@gmail.com">springsmattserenehotel@gmail.com</a></span>
+              </p>
+              <p>
+                <i class="bx bx-phone-call"></i>
+                <span><a href="tel:+254757205181">+254757205181</a></span>
+              </p>
+            </div>
+            <div class="col-auto">
+              <div class="social-links">
+                <a href="https://www.facebook.com/profile.php?id=100081077048215/"><i class="bx bxl-facebook"></i></a>
+                <a href="https://x.com/Springsmathotel"><i class="bx bxl-twitter"></i></a>
+                <a href="https://www.instagram.com/"><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.github.io/okinda-joseph/"><i class="bx bxl-github"></i></a>
+                <a href="https://www.youtube.com/"><i class="bx bxl-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <nav class="navbar navbar-expand-lg bg-white sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="./index.php">
+            <span>springsmatt</span>serene <span class="text-danger">hotel</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.php">home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./offers.php">offers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./room.php">Rooms</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./dining.php">Restaurants</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./conference.php">Meetings</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.php">contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
   <!-- BANNERSS -->
   <div id="about-main-banner">
     <div class="about-box bg-cover d-flex align-items-center">
