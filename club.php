@@ -231,6 +231,3 @@
 </body>
 
 </html>
-<?php
-include("components/footer.html");
-?>
