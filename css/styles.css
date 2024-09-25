@@ -68,7 +68,14 @@ p {
   left: 0;
   right: 0;
   z-index: 10000;
+} 
+
+.navbar.sticky {
+  background-color: var(--bs-red-text) !important;
+  transition: 0.4s ease;
 }
+
+
 
 .top-nav {
   background-color: var(--bs-body-color);
