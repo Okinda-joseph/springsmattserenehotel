@@ -7,9 +7,9 @@ $(document).ready(function () {
     items: 1,
     smartSpeed: 1000,
     dots: false,
-    autoplay: true,
-    autoplayTimeout: 5000,
-    autoplayHoverPause: false,
+    // autoplay: true,
+    // autoplayTimeout: 5000,
+    // autoplayHoverPause: false,
     responsive: {
       0: {
         nav: false,
