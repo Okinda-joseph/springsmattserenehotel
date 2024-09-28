@@ -68,7 +68,7 @@ p {
   left: 0;
   right: 0;
   z-index: 10000;
-} 
+}
 
 .navbar.sticky {
   background-color: var(--bs-red-text) !important;
@@ -898,6 +898,7 @@ p {
 .icon-wrap-1 p {
   color: var(--bs-light-text) !important;
 }
+
 /* COTTAGE */
 #cottage-banner {
   background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/captions/room\ \(20\).jpg)
@@ -914,6 +915,7 @@ p {
 #superior-banner {
   background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/captions/room\ \(47\).jpg);
 }
+
 #corner-banner {
   background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/captions/room\ \(48\).jpg);
 }
@@ -921,12 +923,15 @@ p {
 #state-banner {
   background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/captions/room\ \(51\).jpg);
 }
+
 #business-banner {
   background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/captions/room\ \(52\).jpg);
 }
+
 #executive-banner {
   background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/captions/room\ \(41\).jpg);
 }
+
 #garden-banner {
   background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/captions/room\ \(49\).jpg);
 }
@@ -952,9 +957,11 @@ p {
   margin: -40px auto;
   padding-bottom: 40px;
 }
+
 .card-img-icons.accom-img-icons i {
-padding: 20px;
+  padding: 20px;
 }
+
 .card-body.accom-text {
   z-index: 3;
 }
@@ -1001,6 +1008,7 @@ padding: 20px;
 #massage-banner {
   background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/blog/blog\ \(58\).jpg);
 }
+
 #healthclub-banner {
   background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/captions/gym\ \(2\).jpg);
 }
@@ -1012,10 +1020,40 @@ padding: 20px;
 }
 
 
+/* FAQ */
+
+#faq-banner {
+  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/banner/header\ \(4\).jpg);
+}
+
+.accordion-item {
+  border: none !important;
+  border-radius: 0 !important;
+  border-bottom: 2px solid var(--bs-body-color) !important;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--bs-light-text) !important;
+  background-color: var(--bs-white);
+  box-shadow: inset 0 calc(-1* var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+}
 
 
+.accordion-item:first-of-type > .accordion-header .accordion-button {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
 
-
+.accordion-item:last-of-type > .accordion-header .accordion-button.collapsed {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
 
 
 
