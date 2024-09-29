@@ -62,17 +62,18 @@ p {
 
 
 /*  NAVBAR */
-.header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 10000;
+.navbar.sticky {
+  background-color: var(--bs-dark-text) !important;
+  padding: 16px 0px;
+  transition: all 0.5s ease-in;
 }
 
-.navbar.sticky {
-  background-color: var(--bs-red-text) !important;
-  transition: 0.4s ease;
+.navbar.sticky .span-text {
+  color: var(--bs-white);
+}
+
+.navbar.sticky .nav-link {
+  color: var(--bs-white) !important;
 }
 
 
@@ -115,6 +116,7 @@ p {
 
 .navbar {
   box-shadow: var(--bs-box-shadow);
+  transition: all 0.5s ease-in;
 }
 
 .navbar-brand {
@@ -979,7 +981,7 @@ p {
 
 
 #summit-banner {
-  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/captions/conference\ \(3\).webp);
+  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/captions/conference\ \(3\).png);
 }
 
 .body-text {
@@ -1014,9 +1016,11 @@ p {
 }
 
 /*  TOUR  */
-
 #tour-banner {
   background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/offers/caption\ \(8\).jpg);
+}
+#term-banner {
+  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/banner/banner\ \(15\).jpg)
 }
 
 

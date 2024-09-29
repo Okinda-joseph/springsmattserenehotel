@@ -2,7 +2,9 @@
 <html lang="en">
 
 <head>
-  <!-- The required meta tags -->
+    <!-- The required meta tags. This code is needed for responsive design to work.
+      (Responsive design = make the website look good on
+      smaller screen sizes like a phone or a tablet). -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>About | springsmatt</title>
@@ -11,80 +13,108 @@
   <link rel="stylesheet" href="./css/owl.carousel.min.css">
   <link rel="stylesheet" href="./css/owl.theme.default.min.css">
   <link rel="stylesheet" href="./css/styles.css">
+   <!-- Load a font called Roboto from Google Fonts. -->
   <script src="https://kit.fontawesome.com/5bebd170da.js" crossorigin="anonymous"></script>
   <!-- favicon -->
-  <link rel="shortcut icon" href="./assets/icons/logo.jpeg" type="image/x-icon">
+  <link rel="shortcut icon" href="../springsmattserenehotel/assets/icons/logo.jpeg" type="image/x-icon">
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar-nav">
-    <!-- HEADER -->
-    <header>
-      <div class="top-nav">
-        <div class="container">
-          <div class="row justify-content-between">
-            <div class="col-auto">
-              <p>
-                <i class="bx bx-envelope"></i>
-                <span><a href="mailto:springsmattserenehotel@gmail.com">springsmattserenehotel@gmail.com</a></span>
-              </p>
-              <p>
-                <i class="bx bx-phone-call"></i>
-                <span><a href="tel:+254757205181">+254757205181</a></span>
-              </p>
-            </div>
-            <div class="col-auto">
-              <div class="social-links">
-                <a href="https://www.facebook.com/profile.php?id=100081077048215/"><i class="bx bxl-facebook"></i></a>
-                <a href="https://x.com/Springsmathotel"><i class="bx bxl-twitter"></i></a>
-                <a href="https://www.instagram.com/"><i class="bx bxl-instagram"></i></a>
-                <a href="https://www.github.io/okinda-joseph/"><i class="bx bxl-github"></i></a>
-                <a href="https://www.youtube.com/"><i class="bx bxl-youtube"></i></a>
-              </div>
-            </div>
+  <!-- HEADER -->
+  <div class="top-nav">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-auto">
+          <p>
+            <i class="bx bx-envelope"></i>
+            <span><a href="mailto:springsmattserenehotel@gmail.com">springsmattserenehotel@gmail.com</a></span>
+          </p>
+          <p>
+            <i class="bx bx-phone-call"></i>
+            <span><a href="tel:+254757205181">+254757205181</a></span>
+          </p>
+        </div>
+        <div class="col-auto">
+          <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=100081077048215/"><i class="bx bxl-facebook"></i></a>
+            <a href="https://x.com/Springsmathotel"><i class="bx bxl-twitter"></i></a>
+            <a href="https://www.instagram.com/"><i class="bx bxl-instagram"></i></a>
+            <a href="https://www.github.io/okinda-joseph/"><i class="bx bxl-github"></i></a>
+            <a href="https://www.youtube.com/"><i class="bx bxl-youtube"></i></a>
           </div>
         </div>
       </div>
-  
-      <nav class="navbar navbar-expand-lg bg-white sticky-top">
-        <div class="container">
-          <a class="navbar-brand" href="./">
-            <span>springsmatt</span>serene <span class="text-danger">hotel</span>
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="./">home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./offers.html">offers</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./room.html">Rooms</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./dining.html">Restaurants</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./conference.html">Meetings</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contact.html">contact us</a>
-              </li>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg bg-white sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="../springsmattserenehotel/index.html">
+        <span>springsmatt</span><span class="span-text">serene </span><span class="text-danger">hotel</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../springsmattserenehotel/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../springsmattserenehotel/offers.html">offers</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="../springsmattserenehotel/room.html" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Rooms
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../springsmattserenehotel/deluxe.html">Deluxe room</a></li>
+              <li><a class="dropdown-item" href="../springsmattserenehotel/club.html">Club room</a></li>
+              <li><a class="dropdown-item" href="../springsmattserenehotel/superior.html">Superior room</a></li>
+              <li><a class="dropdown-item" href="../springsmattserenehotel/corner.html">Corner suite</a></li>
+              <li><a class="dropdown-item" href="../springsmattserenehotel/garden.html">Garden suite</a></li>
+              <li><a class="dropdown-item" href="../springsmattserenehotel/executive.html">Executive suite</a></li>
+              <li><a class="dropdown-item" href="../springsmattserenehotel/business.html">Business suite</a></li>
+              <li><a class="dropdown-item" href="../springsmattserenehotel/state.html">State suite</a></li>
             </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="../springsmattserenehotel/dining.html" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Restaurants
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../springsmattserenehotel/cafe.html">Cafe maghreb fine dining</a></li>
+              <li><a class="dropdown-item" href="../springsmattserenehotel/herbs.html">Herbs & spice restaurant</a></li>
+              <li><a class="dropdown-item" href="../springsmattserenehotel/mandhari.html">Mandhari Fine dine
+                  restaurant</a></li>
+              <li><a class="dropdown-item" href="../springsmattserenehotel/waterfall.html">Serene waterfall grill
+                  dine</a></li>
+              <li><a class="dropdown-item" href="../springsmattserenehotel/blooming.html">Blooming plate fine
+                  restaurant</a></li>
+              <li><a class="dropdown-item" href="../springsmattserenehotel/vegas.html">Las vegas lounge</a></li>
+              <li><a class="dropdown-item" href="../springsmattserenehotel/pool-lounge.html">pool bar</a></li>
+              <li><a class="dropdown-item" href="../springsmattserenehotel/room-service.html">room service</a></li>
+            </ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="../springsmattserenehotel/conference.html" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Meetings
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../springsmattserenehotel/conference.html">Conference</a></li>
+              <li><a class="dropdown-item" href="../springsmattserenehotel/booking.html">Proposal</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"></li>
+          <a class="nav-link" href="../springsmattserenehotel/contact.html">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <!-- BANNERSS -->
   <div id="about-main-banner">
     <div class="about-box bg-cover d-flex align-items-center">
@@ -109,19 +139,44 @@
               <div class="col-12">
                 <div class="text-wrap">
                   <p class="about-text">
-                    Springsmatt serene hotel rooms and suites are a harmonious blend of historical charm and modern sophistication. Each space is thoughtfully designed to provide the utmost comfort, featuring period furnishings, vintage decor, and all the contemporary amenities needed for a restful stay. Whether you choose a cozy room or an expensive suite, you’ll find a perfect retreat that reflects the timeless elegance of Springsmatt. Dining at Springsmatt Serene Hotel is an experience in itself. Our restaurant offers a delectable array of dishes inspired by traditional recipes and crafted with locally sourced ingredients. From hearty breakfasts to elegant dinners, our culinary team is dedicated to providing a dining experience that celebrates the rich flavors and heritage of the region. Enjoy your meals in an ambiance that combines historical charm with refined elegance.
+                    Springsmatt serene hotel rooms and suites are a harmonious blend of historical charm and modern
+                    sophistication. Each space is thoughtfully designed to provide the utmost comfort, featuring period
+                    furnishings, vintage decor, and all the contemporary amenities needed for a restful stay. Whether
+                    you choose a cozy room or an expensive suite, you’ll find a perfect retreat that reflects the
+                    timeless elegance of Springsmatt. Dining at Springsmatt Serene Hotel is an experience in itself. Our
+                    restaurant offers a delectable array of dishes inspired by traditional recipes and crafted with
+                    locally sourced ingredients. From hearty breakfasts to elegant dinners, our culinary team is
+                    dedicated to providing a dining experience that celebrates the rich flavors and heritage of the
+                    region. Enjoy your meals in an ambiance that combines historical charm with refined elegance.
                   </p>
                   <p>&nbsp;</p>
                   <p>
-                  <div class="about-main-img"><img loading="lazy" src="./assets/captions/room (18).jpg" alt="room"></div>
+                  <div class="about-main-img"><img loading="lazy"
+                      src="../springsmattserenehotel/assets/captions/room (18).jpg" alt="room"></div>
                   </p>
                   <p>&nbsp;</p>
                   <p class="about-text">
-                    Springsmatt Serene Hotel is an ideal venue for meetings, conferences, and special events. Our state-of-the-art facilities, coupled with the historical significance of our venue, provide a unique and inspiring setting for any occasion. Whether you are planning a corporate retreat, a wedding, or a family reunion, our dedicated events team will work with you to ensure every detail is perfect, creating memorable experiences for you and your guests. We are pleased to offer a range of exclusive packages and promotions designed to enhance your stay at Springsmatt Serene Hotel. From romantic getaways to cultural exploration packages, our offers provide unique opportunities to experience the best of what our hotel and the surrounding region have to offer. Be sure to check our website regularly for the latest deals and special offers.
+                    Springsmatt Serene Hotel is an ideal venue for meetings, conferences, and special events. Our
+                    state-of-the-art facilities, coupled with the historical significance of our venue, provide a unique
+                    and inspiring setting for any occasion. Whether you are planning a corporate retreat, a wedding, or
+                    a family reunion, our dedicated events team will work with you to ensure every detail is perfect,
+                    creating memorable experiences for you and your guests. We are pleased to offer a range of exclusive
+                    packages and promotions designed to enhance your stay at Springsmatt Serene Hotel. From romantic
+                    getaways to cultural exploration packages, our offers provide unique opportunities to experience the
+                    best of what our hotel and the surrounding region have to offer. Be sure to check our website
+                    regularly for the latest deals and special offers.
                   </p>
                   <p>&nbsp;</p>
                   <p class="about-text mb-3">
-                    At Springsmatt Serene Hotel, we value your privacy and are committed to protecting your personal information. Our privacy policy outlines how we collect, use, and safeguard your data to ensure your peace of mind during your stay with us. Additionally, our terms and conditions provide detailed information about your booking, stay, and use of our services. We encourage you to review these documents to fully understand your rights and responsibilities as a guest. Springsmatt Serene Hotel is more than just a place to stay; it’s a destination that offers a rich tapestry of historical and cultural experiences. We invite you to explore our heritage, relax in our serene environment, and create lasting memories. Under the leadership of Mr. Joseph were, our dedicated team is committed to making your stay with us exceptional in every way.
+                    At Springsmatt Serene Hotel, we value your privacy and are committed to protecting your personal
+                    information. Our privacy policy outlines how we collect, use, and safeguard your data to ensure your
+                    peace of mind during your stay with us. Additionally, our terms and conditions provide detailed
+                    information about your booking, stay, and use of our services. We encourage you to review these
+                    documents to fully understand your rights and responsibilities as a guest. Springsmatt Serene Hotel
+                    is more than just a place to stay; it’s a destination that offers a rich tapestry of historical and
+                    cultural experiences. We invite you to explore our heritage, relax in our serene environment, and
+                    create lasting memories. Under the leadership of Mr. Joseph were, our dedicated team is committed to
+                    making your stay with us exceptional in every way.
                   </p>
                 </div>
               </div>
@@ -134,7 +189,8 @@
             <div class="side-box-wrapper member-box">
               <div class="box-wrap pt-4 pb-4">
                 <div class="about-img-wrap">
-                  <img loading="lazy" decoding="async" src="./assets/banner/hero/hero (4).png" alt="hotel-general-supervisor" class="about-img-top">
+                  <img loading="lazy" decoding="async" src="../springsmattserenehotel/assets/banner/hero/hero (4).png"
+                    alt="hotel-general-supervisor" class="about-img-top">
                 </div>
                 <div class="box-body">
                   <div class="title-wrap">
@@ -147,7 +203,8 @@
               </div>
               <div class="box-wrap pt-4 pb-4">
                 <div class="about-img-wrap">
-                  <img loading="lazy" decoding="async" src="./assets/banner/hero/hero (3).jpg" alt="digital-marketing" class="about-img-top">
+                  <img loading="lazy" decoding="async" src="../springsmattserenehotel/assets/banner/hero/hero (3).jpg"
+                    alt="digital-marketing" class="about-img-top">
                 </div>
                 <div class="box-body">
                   <div class="title-wrap">
@@ -160,7 +217,8 @@
               </div>
               <div class="box-wrap pt-4 pb-4">
                 <div class="about-img-wrap">
-                  <img loading="lazy" decoding="async" src="./assets/banner/hero/hero (2).png" alt="manager" class="about-img-top">
+                  <img loading="lazy" decoding="async" src="../springsmattserenehotel/assets/banner/hero/hero (2).png"
+                    alt="manager" class="about-img-top">
                 </div>
                 <div class="box-body">
                   <div class="title-wrap">
@@ -173,7 +231,8 @@
               </div>
               <div class="box-wrap pt-4 pb-4">
                 <div class="about-img-wrap">
-                  <img loading="lazy" decoding="async" src="./assets/banner/hero/hero (1).jpg" alt="CEO" class="about-img-top">
+                  <img loading="lazy" decoding="async" src="../springsmattserenehotel/assets/banner/hero/hero (1).jpg"
+                    alt="CEO" class="about-img-top">
                 </div>
                 <div class="box-body">
                   <div class="title-wrap">
@@ -204,7 +263,8 @@
                 <div class="core-wrapper-box">
                   <div class="core-box">
                     <div class="core-img-box">
-                      <img loading="lazy" src="./assets/icons/icons (5).png" alt="" class="core-img-top mb-3">
+                      <img loading="lazy" src="../springsmattserenehotel/assets/icons/icons (5).png" alt="room"
+                        class="core-img-top mb-3">
                     </div>
                     <div class="core-body-box">
                       <div class="titile-wrap">
@@ -212,7 +272,9 @@
                       </div>
                       <div class="text-wrap">
                         <p class="card-text">
-                          Welcome to our exquisite deluxe, superior and garden suite rooms, where comfort meets luxury in perfect harmony. Designed with your utmost relaxation and enjoyment in mind, this spacious haven is ideal for creating lasting memories that will last lifetimes.</p>
+                          Welcome to our exquisite deluxe, superior and garden suite rooms, where comfort meets luxury
+                          in perfect harmony. Designed with your utmost relaxation and enjoyment in mind, this spacious
+                          haven is ideal for creating lasting memories that will last lifetimes.</p>
                       </div>
                     </div>
                   </div>
@@ -222,7 +284,8 @@
                 <div class="core-wrapper-box">
                   <div class="core-box">
                     <div class="core-img-box">
-                      <img loading="lazy" src="./assets/icons/icons (2).png" alt="" class="core-img-top mb-3">
+                      <img loading="lazy" src="../springsmattserenehotel/assets/icons/icons (2).png" alt="restaurant"
+                        class="core-img-top mb-3">
                     </div>
                     <div class="core-body-box">
                       <div class="titile-wrap">
@@ -230,7 +293,9 @@
                       </div>
                       <div class="text-wrap">
                         <p class="card-text">
-                          Culinary excellence takes center stage as talented chefs craft a menu that celebrates both local flavors and international influences. Each dish is a masterpiece, meticulously prepared using the finest, freshest ingredients sourced from local markets or specialty suppliers.</p>
+                          Culinary excellence takes center stage as talented chefs craft a menu that celebrates both
+                          local flavors and international influences. Each dish is a masterpiece, meticulously prepared
+                          using the finest, freshest ingredients sourced from local markets or specialty suppliers.</p>
                       </div>
                     </div>
                   </div>
@@ -240,7 +305,8 @@
                 <div class="core-wrapper-box">
                   <div class="core-box">
                     <div class="core-img-box">
-                      <img loading="lazy" src="./assets/icons/icons (4).png" alt="" class="core-img-top mb-3">
+                      <img loading="lazy" src="../springsmattserenehotel/assets/icons/icons (4).png" alt="pool"
+                        class="core-img-top mb-3">
                     </div>
                     <div class="core-body-box">
                       <div class="titile-wrap">
@@ -248,7 +314,10 @@
                       </div>
                       <div class="text-wrap">
                         <p class="card-text">
-                          Our swimming pools are meticulously maintained to ensure crystal-clear waters that beckon you to take a dip. Dive into a world of serenity as our professionally trained lifeguards prioritize your safety while you savor every moment. Whether you're seeking a peaceful swim or a fun-filled family adventure, our pools cater to all your desires.
+                          Our swimming pools are meticulously maintained to ensure crystal-clear waters that beckon you
+                          to take a dip. Dive into a world of serenity as our professionally trained lifeguards
+                          prioritize your safety while you savor every moment. Whether you're seeking a peaceful swim or
+                          a fun-filled family adventure, our pools cater to all your desires.
                         </p>
                       </div>
                     </div>
@@ -259,7 +328,8 @@
                 <div class="core-wrapper-box">
                   <div class="core-box">
                     <div class="core-img-box">
-                      <img loading="lazy" src="./assets/icons/icons (3).png" alt="Map-location" class="core-img-top mb-3">
+                      <img loading="lazy" src="../springsmattserenehotel/assets/icons/icons (3).png" alt="Map-location"
+                        class="core-img-top mb-3">
                     </div>
                     <div class="core-body-box">
                       <div class="titile-wrap">
@@ -267,7 +337,10 @@
                       </div>
                       <div class="text-wrap">
                         <p class="card-text">
-                          Imagine yourself standing amidst the vast savannah, observing majestic lions, graceful cheetahs, and towering giraffes in their natural habitat. Our experienced guides, with their in-depth knowledge and passion for wildlife, will ensure you don't miss a moment of this breathtaking beauty and lifetimes.
+                          Imagine yourself standing amidst the vast savannah, observing majestic lions, graceful
+                          cheetahs, and towering giraffes in their natural habitat. Our experienced guides, with their
+                          in-depth knowledge and passion for wildlife, will ensure you don't miss a moment of this
+                          breathtaking beauty and lifetimes.
                         </p>
                       </div>
                     </div>
@@ -293,7 +366,8 @@
         <div class="col-lg-4 col-sm-6">
           <div class="card">
             <div class="card-img-box">
-              <a href="#"><img loading="lazy" src="./assets/captions/room (52).jpg" class="card-img-top" alt="family-room"></a>
+              <a href="#"><img loading="lazy" src="../springsmattserenehotel/assets/captions/room (52).jpg"
+                  class="card-img-top" alt="family-room"></a>
             </div>
             <div class="card-body">
               <div class="title-wrap">
@@ -301,7 +375,9 @@
               </div>
               <div class="text-wrap">
                 <p class="card-text">
-                  Family cottage, where comfort meets luxury in perfect harmony. Designed with your utmost relaxation and enjoyment in mind, this spacious haven is ideal for creating lasting memories with your loved ones.
+                  Family cottage, where comfort meets luxury in perfect harmony. Designed with your utmost relaxation
+                  and enjoyment in mind, this spacious haven is ideal for creating lasting memories with your loved
+                  ones.
                 </p>
               </div>
               <div class="button-wrap mt-3"><a class="btn-text" href="#">Learn more</a></div>
@@ -311,7 +387,8 @@
         <div class="col-lg-4 col-sm-6">
           <div class="card">
             <div class="card-img-box">
-              <a href="#"><img src="./assets/captions/conference (2).jpg" class="card-img-top" alt="coference-summit"></a>
+              <a href="#"><img src="../springsmattserenehotel/assets/captions/conference (2).jpg" class="card-img-top"
+                  alt="coference-summit"></a>
             </div>
             <div class="card-body">
               <div class="title-wrap">
@@ -319,7 +396,9 @@
               </div>
               <div class="text-wrap">
                 <p class="card-text">
-                  Springsmatt is an ideal venue for meetings, conferences, and special events. Our state-of-the-art facilities, coupled with the historical significance of our venue, provide a unique and inspiring setting for any occasion
+                  Springsmatt is an ideal venue for meetings, conferences, and special events. Our state-of-the-art
+                  facilities, coupled with the historical significance of our venue, provide a unique and inspiring
+                  setting for any occasion
                 </p>
               </div>
               <div class="button-wrap mt-3"><a class="btn-text" href="#">Learn more</a></div>
@@ -329,7 +408,8 @@
         <div class="col-lg-4 col-sm-6">
           <div class="card">
             <div class="card-img-box">
-              <a href="#"><img src="./assets/captions/spa (5).jpg" class="card-img-top" alt="message"></a>
+              <a href="#"><img src="../springsmattserenehotel/assets/captions/spa (5).jpg" class="card-img-top"
+                  alt="message"></a>
             </div>
             <div class="card-body">
               <div class="title-wrap">
@@ -337,7 +417,9 @@
               </div>
               <div class="text-wrap">
                 <p class="card-text">
-                  Hotel health club provides guests with access to a wide range of fitness amenities and wellness services. Unlike a standard hotel gym, a health club typically offers a more extensive array of features aimed at promoting holistic well-being.
+                  Hotel health club provides guests with access to a wide range of fitness amenities and wellness
+                  services. Unlike a standard hotel gym, a health club typically offers a more extensive array of
+                  features aimed at promoting holistic well-being.
                 </p>
               </div>
               <div class="button-wrap mt-3"><a class="btn-text" href="#">Learn more</a></div>
@@ -356,14 +438,15 @@
           <div class="row g-3">
             <div class="col-lg-3 col-sm-6">
               <div class="footer-img-wrap">
-                <a href="./" class="footer-img-logo"><img loading="lazy" class="mb-3" src="./assets/icons/logo.jpeg"
-                    alt="hotel-main-logo"></a>
+                <a href="../springsmattserenehotel/index.html" class="footer-img-logo"><img loading="lazy" class="mb-3"
+                    src="../springsmattserenehotel/assets/icons/logo.jpeg" alt="hotel-main-logo"></a>
               </div>
               <div class="footer-hotel-desc">
                 <p class="mb-3">
                   Discover a world of luxury and comfort at Springsmatt Serene Hotel, where our array of
                   facilities are designed to cater to your every need and enhance your stay. From elegant accommodations
-                  to exquisite dining and versatile event spaces, we offer a comprehensive range of amenities to ensure a
+                  to exquisite dining and versatile event spaces, we offer a comprehensive range of amenities to ensure
+                  a
                   memorable experience for every guest.</p>
               </div>
             </div>
@@ -372,13 +455,13 @@
                 <h4 class="title">Quick links</h4>
               </div>
               <div class="footer-link-wrap">
-                <a href="./index.html">+ Home</a>
-                <a href="./about.html">+ About us</a>
-                <a href="./contact.html">+ Contact</a>
-                <a href="./heritage.html"> + Serene heritage</a>
-                <a href="./pool.html">+ Swimming pool</a>
-                <a href="./blog.html">+ Blogs</a>
-                <a href="./faq.html">+ FAQ</a>
+                <a href="../springsmattserenehotel/index.html">+ Home</a>
+                <a href="../springsmattserenehotel/about.html">+ About us</a>
+                <a href="../springsmattserenehotel/contact.html">+ Contact</a>
+                <a href="../springsmattserenehotel/heritage.html"> + Serene heritage</a>
+                <a href="../springsmattserenehotel/pool.html">+ Swimming pool</a>
+                <a href="../springsmattserenehotel/blog.html">+ Blogs</a>
+                <a href="../springsmattserenehotel/faq.html">+ FAQ</a>
               </div>
             </div>
             <div class="col-lg-3 col-sm-6">
@@ -386,13 +469,13 @@
                 <h4 class="title">Our services</h4>
               </div>
               <div class="footer-link-wrap">
-                <a href="./room.html">+ Rooms lodges</a>
-                <a href="./dining.html">+ Restaurants</a>
-                <a href="./wellness.html">+ wellness</a>
-                <a href="./honeymoon.html">+ Honeymoon</a>
-                <a href="./conference.html">+ Conference</a>
-                <a href="./leisure.html">+ Leisure activities</a>
-                <a href="./tour.html">+ Tour services</a>
+                <a href="../springsmattserenehotel/room.html">+ Rooms lodges</a>
+                <a href="../springsmattserenehotel/dining.html">+ Restaurants</a>
+                <a href="../springsmattserenehotel/wellness.html">+ wellness</a>
+                <a href="../springsmattserenehotel/honeymoon.html">+ Honeymoon</a>
+                <a href="../springsmattserenehotel/conference.html">+ Conference</a>
+                <a href="../springsmattserenehotel/leisure.html">+ Leisure activities</a>
+                <a href="../springsmattserenehotel/tour.html">+ Tour services</a>
               </div>
             </div>
             <div class="col-lg-4 col-sm-6">
@@ -434,10 +517,10 @@
               </div>
               <div class="col-auto key-info-wrapper">
                 <div class="term-link-wrap">
-                  <a href="./term.html">Terms of use</a>
+                  <a href="../springsmattserenehotel/term.html">Terms of use</a>
                 </div>
                 <div class="privacy-link-wrap">
-                  <a href="./privacy.html">Privacy policy</a>
+                  <a href="../springsmattserenehotel/privacy.html">Privacy policy</a>
                 </div>
               </div>
             </div>

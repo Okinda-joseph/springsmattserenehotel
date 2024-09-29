@@ -2,7 +2,9 @@
 <html lang="en">
 
 <head>
-  <!-- The required meta tags -->
+  <!-- The required meta tags. This code is needed for responsive design to work.
+      (Responsive design = make the website look good on
+      smaller screen sizes like a phone or a tablet). -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>springsmattserenehotel</title>
@@ -11,82 +13,109 @@
   <link rel="stylesheet" href="./css/owl.carousel.min.css">
   <link rel="stylesheet" href="./css/owl.theme.default.min.css">
   <link rel="stylesheet" href="./css/styles.css">
-<!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Load a font called Roboto from Google Fonts. -->
+  <!-- Bootstrap custom links -->
+  <!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> -->
   <script src="https://kit.fontawesome.com/5bebd170da.js" crossorigin="anonymous"></script>
   <!-- favicon -->
-  <link rel="shortcut icon" href="./assets/icons/logo.jpeg" type="image/x-icon">
+  <link rel="shortcut icon" href="../springsmattserenehotel/assets/icons/logo.jpeg" type="image/x-icon">
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar-nav">
   <!-- HEADER -->
-  <header class="header">
-    <div class="top-nav">
-      <div class="container">
-        <div class="row justify-content-between">
-          <div class="col-auto">
-            <p>
-              <i class="bx bx-envelope"></i>
-              <span><a href="mailto:springsmattserenehotel@gmail.com">springsmattserenehotel@gmail.com</a></span>
-            </p>
-            <p>
-              <i class="bx bx-phone-call"></i>
-              <span><a href="tel:+254757205181">+254757205181</a></span>
-            </p>
-          </div>
-          <div class="col-auto">
-            <div class="social-links">
-              <a href="https://www.facebook.com/profile.php?id=100081077048215/"><i class="bx bxl-facebook"></i></a>
-              <a href="https://x.com/Springsmathotel"><i class="bx bxl-twitter"></i></a>
-              <a href="https://www.instagram.com/"><i class="bx bxl-instagram"></i></a>
-              <a href="https://www.github.io/okinda-joseph/"><i class="bx bxl-github"></i></a>
-              <a href="https://www.youtube.com/"><i class="bx bxl-youtube"></i></a>
-            </div>
+  <div class="top-nav">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-auto">
+          <p>
+            <i class="bx bx-envelope"></i>
+            <span><a href="mailto:springsmattserenehotel@gmail.com">springsmattserenehotel@gmail.com</a></span>
+          </p>
+          <p>
+            <i class="bx bx-phone-call"></i>
+            <span><a href="tel:+254757205181">+254757205181</a></span>
+          </p>
+        </div>
+        <div class="col-auto">
+          <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=100081077048215/"><i class="bx bxl-facebook"></i></a>
+            <a href="https://x.com/Springsmathotel"><i class="bx bxl-twitter"></i></a>
+            <a href="https://www.instagram.com/"><i class="bx bxl-instagram"></i></a>
+            <a href="https://www.github.io/okinda-joseph/"><i class="bx bxl-github"></i></a>
+            <a href="https://www.youtube.com/"><i class="bx bxl-youtube"></i></a>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <nav class="navbar navbar-expand-lg bg-white">
-      <div class="container">
-        <a class="navbar-brand" href="./">
-          <span>springsmatt</span>serene <span class="text-danger">hotel</span>
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="./">home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./offers.html">offers</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./room.html">Rooms</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./dining.html">Restaurants</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./conference.html">Meetings</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./contact.html">contact us</a>
-            </li>
-          </ul>
-        </div>
+  <nav class="navbar navbar-expand-lg bg-white sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="../springsmattserenehotel/index.html">
+        <span>springsmatt</span><span class="span-text">serene </span><span class="text-danger">hotel</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../springsmattserenehotel/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./offers.html">offers</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="./room.html" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Rooms
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./deluxe.html">Deluxe room</a></li>
+              <li><a class="dropdown-item" href="./club.html">Club room</a></li>
+              <li><a class="dropdown-item" href="./superior.html">Superior room</a></li>
+              <li><a class="dropdown-item" href="./corner.html">Corner suite</a></li>
+              <li><a class="dropdown-item" href="./garden.html">Garden suite</a></li>
+              <li><a class="dropdown-item" href="./executive.html">Executive suite</a></li>
+              <li><a class="dropdown-item" href="./business.html">Business suite</a></li>
+              <li><a class="dropdown-item" href="./state.html">State suite</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="./room.html" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Rooms
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./cafe.html">Cafe maghreb fine dining</a></li>
+              <li><a class="dropdown-item" href="./herbs.html">Herbs & spice restaurant</a></li>
+              <li><a class="dropdown-item" href="./mandhari.html">Mandhari Fine dine restaurant</a></li>
+              <li><a class="dropdown-item" href="./waterfall.html">Serene waterfall grill dine</a></li>
+              <li><a class="dropdown-item" href="./blooming.html">Blooming plate fine restaurant</a></li>
+              <li><a class="dropdown-item" href="./vegas.html">Las vegas lounge</a></li>
+              <li><a class="dropdown-item" href="./pool-lounge.html">pool bar</a></li>
+              <li><a class="dropdown-item" href="./room-service.html">room service</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="./conference.html" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Meetings
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./conference.html">Conference</a></li>
+              <li><a class="dropdown-item" href="./booking.html">Proposal</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"></li>
+          <a class="nav-link" href="./contact.html">Contact us</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-  </header>
+    </div>
+  </nav>
   <!-- HEADER SLIDER -->
   <div id="header-slider" class="owl-theme owl-carousel">
     <div class="h-slider-1 min-vh-100 d-flex align-items-center bg-cover">
@@ -96,7 +125,8 @@
             <h2 class="display-3 text-uppercase">springsmatt hotel</h2>
             <h4 class="display-4 text-uppercase text-white">external overview</h4>
             <p class="text-white">
-              Discover a world of luxury and comfort at Springsmatt Serene Hotel,<br> where our array of facilities are designed to cater to your every need and enhance your stay.
+              Discover a world of luxury and comfort at Springsmatt Serene Hotel,<br> where our array of facilities are
+              designed to cater to your every need and enhance your stay.
             </p>
             <a href="./blog.html" class="btn btn-secondary">get started</a>
             <a href="./about.html" class="btn btn-outline-light ms-md-3">about us</a>
@@ -110,7 +140,8 @@
           <div class="col-12 text-center">
             <h4 class="display-4 text-uppercase text-white">Luxury room types</h4>
             <p class="text-white p-auto p-3">
-              The hotel’s serene and picturesque setting offers a peaceful retreat while being conveniently close to local attractions and transport links, making it perfect for both leisure and business travelers
+              The hotel’s serene and picturesque setting offers a peaceful retreat while being conveniently close to
+              local attractions and transport links, making it perfect for both leisure and business travelers
             </p>
             <a href="./contact.html" class="btn btn-secondary">Contact us</a>
             <a href="./accommodation.html" class="btn btn-outline-light ms-md-3">Learn more</a>
@@ -124,7 +155,8 @@
           <div class="col-12">
             <h4 class="display-4 text-uppercase text-white">Dining restaurants</h4>
             <p class="text-white p-3">
-              Earns experience with springsMatt serene hotel dining services such as room services, herbs and spices,cafe maghreb restaurants, mandhari fine dining, lounge and many others.
+              Earns experience with springsMatt serene hotel dining services such as room services, herbs and
+              spices,cafe maghreb restaurants, mandhari fine dining, lounge and many others.
             </p>
             <a href="./dining.html" class="btn btn-secondary">Book a table</a>
             <a href="./about.html" class="btn btn-outline-light ms-md-3">about us</a>
@@ -138,7 +170,8 @@
           <div class="col-12 text-center">
             <h4 class="display-4 text-uppercase text-white">Lounge</h4>
             <p class="text-white p-auto p-3">
-              Sip on handcrafted cocktails expertly mixed by our talented bartenders, each creation a testament to the artistry of mixology.
+              Sip on handcrafted cocktails expertly mixed by our talented bartenders, each creation a testament to the
+              artistry of mixology.
             </p>
             <a href="./lounge.html" class="btn btn-secondary">Learn more</a>
             <a href="./blog.html" class="btn btn-outline-light ms-md-3">Tours</a>
@@ -152,7 +185,8 @@
           <div class="col-12">
             <h4 class="display-4 text-uppercase text-white">wellness treatment</h4>
             <p class="text-white p-3">
-              welcome to springsmatt hotel resort spa center, the pinnacle of welliness and relaxation nestled within our hotel resorts.
+              welcome to springsmatt hotel resort spa center, the pinnacle of welliness and relaxation nestled within
+              our hotel resorts.
             </p>
             <a href="./booking.html" class="btn btn-secondary">Book a tour</a>
             <a href="./wellness.html" class="btn btn-outline-light ms-md-3">Get started</a>
@@ -180,7 +214,9 @@
           <div class="col-12">
             <h4 class="display-4 text-uppercase text-white">Swimming pool</h4>
             <p class="text-white p-3">
-              This pool offers a recreational amenity offered by this hotel to enhance the guest experience and provide a refreshing escape during their stay. This pool size 25-meters, designed generally offer a space for guests to swim, relax, and enjoy the water.
+              This pool offers a recreational amenity offered by this hotel to enhance the guest experience and provide
+              a refreshing escape during their stay. This pool size 25-meters, designed generally offer a space for
+              guests to swim, relax, and enjoy the water.
             </p>
             <a href="./booking.html" class="btn btn-secondary">Book a trip</a>
             <a href="./pool.html" class="btn btn-outline-light ms-md-3">Learn more</a>
@@ -195,7 +231,8 @@
             <h4 class="display-4 text-uppercase text-white">honeymoon</h4>
             <p class="text-white p-auto p-3">
               A honeymoons that set the perfect tone for the start of your life together.
-              Every weddings and honeymoons celebrated at khwisero, kakamega is crafted to be a fully toilered affairs, from intimate family gatherings to grand galas for upto 100 guests.
+              Every weddings and honeymoons celebrated at khwisero, kakamega is crafted to be a fully toilered affairs,
+              from intimate family gatherings to grand galas for upto 100 guests.
             </p>
             <a href="./honeymoon.html" class="btn btn-secondary">Learn more</a>
             <a href="./about.html" class="btn btn-outline-light ms-md-3">about us</a>
@@ -216,7 +253,8 @@
               </div>
               <div class="about-icon-desc">
                 <h4>Room cottage</h4>
-                <p> Escape the hustle and bustle of city life and experience the tranquility of our cottage room hotel.</p>
+                <p> Escape the hustle and bustle of city life and experience the tranquility of our cottage room hotel.
+                </p>
               </div>
             </div>
             <div class="col-auto icon-wrapper">
@@ -225,7 +263,8 @@
               </div>
               <div class="about-icon-desc">
                 <h4>Restaurants</h4>
-                <p>Indulge in a diverse array of culinary delights crafted by our talented chefs, who infuse each dish with creativity and passion</p>
+                <p>Indulge in a diverse array of culinary delights crafted by our talented chefs, who infuse each dish
+                  with creativity and passion</p>
               </div>
             </div>
             <div class="col-auto icon-wrapper">
@@ -234,7 +273,8 @@
               </div>
               <div class="about-icon-desc">
                 <h4>Swimming pool</h4>
-                <p>Immerse yourself in the epitome of luxury and relaxation with our unrivaled swimming pool services.</p>
+                <p>Immerse yourself in the epitome of luxury and relaxation with our unrivaled swimming pool services.
+                </p>
               </div>
             </div>
             <div class="col-auto icon-wrapper">
@@ -243,7 +283,8 @@
               </div>
               <div class="about-icon-desc">
                 <h4>Tour services</h4>
-                <p>Indulge in a world of excitement and joy with our unbeatable range of leisure activities! At springsmatt serene hotel</p>
+                <p>Indulge in a world of excitement and joy with our unbeatable range of leisure activities! At
+                  springsmatt serene hotel</p>
               </div>
             </div>
           </div>
@@ -309,7 +350,8 @@
             <div class="col-sm-6">
               <div class="card">
                 <div class="card-img-box">
-                  <a href="./room.html"><img src="./assets/captions/room (19).jpeg" alt="deluxe room" class="card-img-top"></a>
+                  <a href="./room.html"><img src="./assets/captions/room (19).jpeg" alt="deluxe room"
+                      class="card-img-top"></a>
                   <div class="card-overlay"></div>
                   <div class="card-icon-box">
                     <p>
@@ -324,7 +366,10 @@
                     <h5 class="card-title title">Accommodation</h5>
                   </div>
                   <div class="text-wrap">
-                    <p class="card-text">Experience unparalleled luxury, deluxe, superior, double rooms at springsMatt serene hotel, designed for comfort and elegance with modern amenities. The room features a spacious layout with a plush king-size bed, high-thread-count linens, premium pillows, tasteful decor, and a soothing color scheme.</p>
+                    <p class="card-text">Experience unparalleled luxury, deluxe, superior, double rooms at springsMatt
+                      serene hotel, designed for comfort and elegance with modern amenities. The room features a
+                      spacious layout with a plush king-size bed, high-thread-count linens, premium pillows, tasteful
+                      decor, and a soothing color scheme.</p>
                   </div>
                   <div class="card-button-wrap mt-3">
                     <a href="./accommodation.html" class="btn btn-secondary" id="btn">Discover</a>
@@ -335,7 +380,8 @@
             <div class="col-sm-6">
               <div class="card">
                 <div class="card-img-box">
-                  <a href="./dining.html"><img loading="lazy" src="./assets/banner/hero (3).jpg" alt="menu" class="card-img-top"></a>
+                  <a href="./dining.html"><img loading="lazy" src="./assets/banner/hero (3).jpg" alt="menu"
+                      class="card-img-top"></a>
                   <div class="card-overlay"></div>
                   <div class="card-icon-box">
                     <p>
@@ -350,7 +396,10 @@
                     <h5 class="card-title title">Dine restaurants</h5>
                   </div>
                   <div class="text-wrap">
-                    <p class="card-text"> Culinary excellence takes center stage as talented chefs craft a menu that celebrates both local flavors and international influences. Each dish is a masterpiece, meticulously prepared using the finest, freshest ingredients sourced from local markets or specialty suppliers.</p>
+                    <p class="card-text"> Culinary excellence takes center stage as talented chefs craft a menu that
+                      celebrates both local flavors and international influences. Each dish is a masterpiece,
+                      meticulously prepared using the finest, freshest ingredients sourced from local markets or
+                      specialty suppliers.</p>
                   </div>
                   <div class="card-button-wrap">
                     <a href="./dining.html" class="btn btn-secondary mt-3" id="btn">Discover</a>
@@ -361,7 +410,8 @@
             <div class="col-sm-6">
               <div class="card">
                 <div class="card-img-box">
-                  <a href="./tour.html"><img loading="lazy" src="./assets/banner/hero (2).jpg" alt="masai-mara" class="card-img-top"></a>
+                  <a href="./tour.html"><img loading="lazy" src="./assets/banner/hero (2).jpg" alt="masai-mara"
+                      class="card-img-top"></a>
                   <div class="card-overlay"></div>
                   <div class="card-icon-box">
                     <p>
@@ -377,7 +427,11 @@
                   </div>
                   <div class="text-wrap">
                     <p class="card-text">
-                      Discover the awe-inspiring landscapes, abundant wildlife, and rich cultural heritage of Masai Mara, all tailored to meet your unique preferences and desires. With our carefully curated itineraries, you'll have the opportunity to witness the Great Migration, where millions of wildebeests and zebras traverse the plains in search of greener pastures, creating a spectacle unlike any other.</p>
+                      Discover the awe-inspiring landscapes, abundant wildlife, and rich cultural heritage of Masai
+                      Mara, all tailored to meet your unique preferences and desires. With our carefully curated
+                      itineraries, you'll have the opportunity to witness the Great Migration, where millions of
+                      wildebeests and zebras traverse the plains in search of greener pastures, creating a spectacle
+                      unlike any other.</p>
                   </div>
                   <div class="card-button-wrap mt-3">
                     <a href="./tour.html" class="btn btn-secondary" id="btn">Get started</a>
@@ -388,7 +442,8 @@
             <div class="col-sm-6">
               <div class="card">
                 <div class="card-img-box">
-                  <a href="./wellness.html"><img loading="lazy" src="./assets/captions/hero (7).jpg" alt="" class="card-img-top"></a>
+                  <a href="./wellness.html"><img loading="lazy" src="./assets/captions/hero (7).jpg" alt=""
+                      class="card-img-top"></a>
                   <div class="card-overlay"></div>
                   <div class="card-icon-box">
                     <p>
@@ -404,7 +459,11 @@
                   </div>
                   <div class="text-wrap">
                     <p class="card-text">
-                      Immerse yourself in the world of indulgence as you explore our gym center, 30-meters swimming pool and our spa services. Spa wellness encompasses a range of holistic practices and treatments designed to promote physical, mental, and emotional well-being in a luxurious and tranquil environment.It goes beyond mere pampering to address the interconnectedness of mind, body, and spirit.</p>
+                      Immerse yourself in the world of indulgence as you explore our gym center, 30-meters swimming pool
+                      and our spa services. Spa wellness encompasses a range of holistic practices and treatments
+                      designed to promote physical, mental, and emotional well-being in a luxurious and tranquil
+                      environment.It goes beyond mere pampering to address the interconnectedness of mind, body, and
+                      spirit.</p>
                   </div>
                   <div class="card-button-wrap mt-3">
                     <a href="./wellness.html" class="btn btn-secondary" id="btn">Learn more</a>
@@ -421,7 +480,8 @@
           <div class="side-box-wrapper">
             <div class="box-wrap pt-3 pb-3">
               <div class="box-img-wrap">
-                <a href="./room.html"><img loading="lazy" src="./assets/captions/hero (10).jpg" alt="deluxe room" class="card-img-top box-img"></a>
+                <a href="./room.html"><img loading="lazy" src="./assets/captions/hero (10).jpg" alt="deluxe room"
+                    class="card-img-top box-img"></a>
               </div>
               <div class="box-body">
                 <div class="title-wrap">
@@ -434,20 +494,23 @@
             </div>
             <div class="box-wrap pt-3 pb-3">
               <div class="box-img-wrap">
-                <a href="./conference.html"><img loading="lazy" src="./assets/captions/conference (13).jpg" alt="coference" class="card-img-top box-img"></a>
+                <a href="./conference.html"><img loading="lazy" src="./assets/captions/conference (13).jpg"
+                    alt="coference" class="card-img-top box-img"></a>
               </div>
               <div class="box-body">
                 <div class="title-wrap">
                   <h6 class="title">Your best meeting venues</h6>
                 </div>
                 <div class="box-text">
-                  <p>Nurturing growth experience the serenity conference, a nurturing environment for personal and professional growth.</p>
+                  <p>Nurturing growth experience the serenity conference, a nurturing environment for personal and
+                    professional growth.</p>
                 </div>
               </div>
             </div>
             <div class="box-wrap pt-3 pb-3">
               <div class="box-img-wrap">
-                <a href="./dining.html"><img loading="lazy" src="./assets/menu/menu (59).png" alt="salad" class="card-img-top box-img"></a>
+                <a href="./dining.html"><img loading="lazy" src="./assets/menu/menu (59).png" alt="salad"
+                    class="card-img-top box-img"></a>
               </div>
               <div class="box-body">
                 <div class="title-wrap">
@@ -460,7 +523,8 @@
             </div>
             <div class="box-wrap pt-3 pb-3">
               <div class="box-img-wrap">
-                <a href="./gym.html"><img loading="lazy" src="./assets/captions/gym (7).jpg" class="card-img-top box-img"></a>
+                <a href="./gym.html"><img loading="lazy" src="./assets/captions/gym (7).jpg"
+                    class="card-img-top box-img"></a>
               </div>
               <div class="box-body">
                 <div class="title-wrap">
@@ -468,7 +532,8 @@
                 </div>
                 <div class="box-text">
                   <p>
-                    Hotel gyms cater to the needs of travelers who want to maintain their fitness regimen during their stay.</p>
+                    Hotel gyms cater to the needs of travelers who want to maintain their fitness regimen during their
+                    stay.</p>
                 </div>
               </div>
             </div>
@@ -504,7 +569,10 @@
             <h5 class="title">Experience luxury like never before at our exquisite hotel.</h5>
           </div>
           <div class="intro-box-text">
-            <p> Each facility and amenities has its own characteristics and personality, which helps set us apart from the competition and gives our guests a unique experience every time they visit our hotel. Experience luxury like never before at our exquisite hotel with a breathtaking helipad, offering unrivaled convenience and opulence.</p>
+            <p> Each facility and amenities has its own characteristics and personality, which helps set us apart from
+              the competition and gives our guests a unique experience every time they visit our hotel. Experience
+              luxury like never before at our exquisite hotel with a breathtaking helipad, offering unrivaled
+              convenience and opulence.</p>
           </div>
         </div>
       </div>
@@ -540,7 +608,8 @@
       </div>
       <div class="box-slide-1 bg-cover">
         <div class="slide-img-box">
-          <a href="./conference.html"><img loading="lazy" src="./assets/captions/conference (14).jpg" alt="double-deluxe-room"></a>
+          <a href="./conference.html"><img loading="lazy" src="./assets/captions/conference (14).jpg"
+              alt="double-deluxe-room"></a>
           <div class="overlay"></div>
           <div class="slide-img-info">
             <div class="title-wrap">
@@ -554,7 +623,8 @@
       </div>
       <div class="box-slide-1 bg-cover">
         <div class="slide-img-box">
-          <a href="./wellness.html"><img loading="lazy" src="./assets/captions/spa (1).jpg" alt="double-deluxe-room"></a>
+          <a href="./wellness.html"><img loading="lazy" src="./assets/captions/spa (1).jpg"
+              alt="double-deluxe-room"></a>
           <div class="overlay"></div>
           <div class="slide-img-info">
             <div class="title-wrap">
@@ -575,7 +645,8 @@
               <h4 class="title display-6 text-white">Swimming pool</h4>
             </div>
             <div class="sub-img-title">
-              <h6 class="title mt-3">Enjoy 30-meter swimming pool services designed to provide an unforgettable aquatic experience.</h6>
+              <h6 class="title mt-3">Enjoy 30-meter swimming pool services designed to provide an unforgettable aquatic
+                experience.</h6>
             </div>
           </div>
         </div>
@@ -588,7 +659,8 @@
       <div class="container">
         <div class="main-title-wrap">
           <h1 class="title display-3">
-            Discover the awe-inspiring landscapes, abundant wildlife, and rich cultural heritage of Masai Mara, all tailored to meet your unique preferences and desires.</h1>
+            Discover the awe-inspiring landscapes, abundant wildlife, and rich cultural heritage of Masai Mara, all
+            tailored to meet your unique preferences and desires.</h1>
         </div>
       </div>
     </div>
@@ -605,7 +677,9 @@
             <h4 class="title">Client feedbacks</h4>
           </div>
           <div class="intro-box-text">
-            <p>Springsmatt serene hotel is a great definition of tranquility due to its wonderful location. Each amenity has its own characteristics and personality, which helps set us apart from the competition and gives our guests a unique experience every time they visit our hotel.</p>
+            <p>Springsmatt serene hotel is a great definition of tranquility due to its wonderful location. Each amenity
+              has its own characteristics and personality, which helps set us apart from the competition and gives our
+              guests a unique experience every time they visit our hotel.</p>
           </div>
         </div>
       </div>
@@ -615,7 +689,8 @@
         <div id="reviews" class="owl-theme owl-carousel">
           <div class="review-slide">
             <div class="review-img-box">
-              <a target="_blank" href="./assets/captions/review (2).webp"><img loading="lazy" src="./assets/captions/review (2).webp" alt="client-1"></a>
+              <a target="_blank" href="../springsmattserenehotel/assets/captions/review (2).png"><img loading="lazy"
+                  src="../springsmattserenehotel/assets/captions/review (2).webp" alt="client-1"></a>
             </div>
             <div class="review-data-box">
               <div class="review-name-box">
@@ -631,13 +706,15 @@
                 <i class='bx bx-star'></i>
               </div>
               <div class="review-text-box mt-2">
-                <p>Designed with your utmost relaxation and enjoyment in mind, this spacious haven is ideal for creating lasting memories with your loved ones.</p>
+                <p>Designed with your utmost relaxation and enjoyment in mind, this spacious haven is ideal for creating
+                  lasting memories with your loved ones.</p>
               </div>
             </div>
           </div>
           <div class="review-slide">
             <div class="review-img-box">
-              <a target="_blank" href="./assets/captions/review (3).png"><img loading="lazy" src="./assets/captions/review (3).png" alt="client-2"></a>
+              <a target="_blank" href="../springsmattserenehotel/assets/captions/review (3).png"><img loading="lazy"
+                  src="../springsmattserenehotel/assets/captions/review (3).png" alt="client-2"></a>
             </div>
             <div class="review-data-box">
               <div class="review-name-box">
@@ -653,13 +730,16 @@
                 <i class='bx bx-star'></i>
               </div>
               <div class="review-text-box mt-2">
-                <p>The experience services of springsmatt hotel is a great definition of tranquility due to its wonderful location and services such Spa services, gymnisium fitness center,pool bar and amenities which has been desgined with unique characteristics and personality,.</p>
+                <p>The experience services of springsmatt hotel is a great definition of tranquility due to its
+                  wonderful location and services such Spa services, gymnisium fitness center,pool bar and amenities
+                  which has been desgined with unique characteristics and personality,.</p>
               </div>
             </div>
           </div>
           <div class="review-slide">
             <div class="review-img-box">
-              <a target="_blank" href="./assets/captions/review (4).png"><img loading="lazy" src="./assets/captions/review (4).png" alt="client-4"></a>
+              <a target="_blank" href="../springsmattserenehotel/assets/captions/review (4).png"><img loading="lazy"
+                  src="../springsmattserenehotel/assets/captions/review (4).png" alt="client-4"></a>
             </div>
             <div class="review-data-box">
               <div class="review-name-box">
@@ -675,13 +755,16 @@
                 <i class='bx bx-star'></i>
               </div>
               <div class="review-text-box mt-2">
-                <p>The experience services of springsmatt hotel is a great definition of tranquility due to its wonderful location and services such Spa services, gymnisium fitness center,pool bar and amenities which has been desgined with unique characteristics and personality,.</p>
+                <p>The experience services of springsmatt hotel is a great definition of tranquility due to its
+                  wonderful location and services such Spa services, gymnisium fitness center,pool bar and amenities
+                  which has been desgined with unique characteristics and personality,.</p>
               </div>
             </div>
           </div>
           <div class="review-slide">
             <div class="review-img-box">
-              <a target="_blank" href="./assets/captions/review (5).jpg"><img loading="lazy" src="./assets/captions/review (5).jpg" alt="client-4"></a>
+              <a target="_blank" href="../springsmattserenehotel/assets/captions/review (5).jpg"><img loading="lazy"
+                  src="../springsmattserenehotel/assets/captions/review (5).jpg" alt="client-4"></a>
             </div>
             <div class="review-data-box">
               <div class="review-name-box">
@@ -697,13 +780,16 @@
                 <i class='bx bx-star'></i>
               </div>
               <div class="review-text-box mt-2">
-                <p>The experience services of springsmatt hotel is a great definition of tranquility due to its wonderful location and services such Spa services, gymnisium fitness center,pool bar and amenities which has been desgined with unique characteristics and personality,.</p>
+                <p>The experience services of springsmatt hotel is a great definition of tranquility due to its
+                  wonderful location and services such Spa services, gymnisium fitness center,pool bar and amenities
+                  which has been desgined with unique characteristics and personality,.</p>
               </div>
             </div>
           </div>
           <div class="review-slide">
             <div class="review-img-box">
-              <a target="_blank" href="./assets/captions/review (6).png"><img loading="lazy" src="./assets/captions/review (6).png" alt="client-5"></a>
+              <a target="_blank" href="../springsmattserenehotel/assets/captions/review (6).png"><img loading="lazy"
+                  src="../springsmattserenehotel/assets/captions/review (6).png" alt="client-5"></a>
             </div>
             <div class="review-data-box">
               <div class="review-name-box">
@@ -719,7 +805,9 @@
                 <i class='bx bx-star'></i>
               </div>
               <div class="review-text-box mt-2">
-                <p>The experience services of springsmatt hotel is a great definition of tranquility due to its wonderful location and services such Spa services, gymnisium fitness center,pool bar and amenities which has been desgined with unique characteristics and personality,.</p>
+                <p>The experience services of springsmatt hotel is a great definition of tranquility due to its
+                  wonderful location and services such Spa services, gymnisium fitness center,pool bar and amenities
+                  which has been desgined with unique characteristics and personality,.</p>
               </div>
             </div>
           </div>
@@ -737,7 +825,7 @@
         <div class="col-lg-4 col-sm-6">
           <div class="card">
             <div class="card-img-box">
-              <a href="#"><img src="./assets/captions/room (11).jpg" class="card-img-top" alt="room-2"></a>
+              <a href="../springsmattserenehotel/accommodation.html"><img src="../springsmattserenehotel/assets/captions/room (11).jpg" class="card-img-top" alt="room-2"></a>
             </div>
             <div class="card-body">
               <div class="title-wrap">
@@ -745,7 +833,9 @@
               </div>
               <div class="text-wrap">
                 <p class="card-text">
-                  Rest assured, your comfort and safety are our top priorities. We handpick luxurious accommodations and provide reliable transportation throughout your journey, ensuring you have a stress-free and enjoyable experience.
+                  Rest assured, your comfort and safety are our top priorities. We handpick luxurious accommodations and
+                  provide reliable transportation throughout your journey, ensuring you have a stress-free and enjoyable
+                  experience.
                 </p>
               </div>
               <div class="card-icon-wrap mt-3 d-flex justify-content-between">
@@ -765,7 +855,7 @@
         <div class="col-lg-4 col-sm-6">
           <div class="card">
             <div class="card-img-box">
-              <a href="#"><img src="./assets/captions/room (12).jpg" class="card-img-top" alt="room-3"></a>
+              <a href="../springsmattserenehotel/restaurant.html"><img src="../springsmattserenehotel/assets/captions/room (12).jpg" class="card-img-top" alt="room-3"></a>
             </div>
             <div class="card-body">
               <div class="title-wrap">
@@ -774,7 +864,8 @@
               <div class="text-wrap">
                 <p class="card-text">
                   The quintessential haven of sophistication and tranquility at SpringsMatt Hotel.
-                  We handpick luxurious accommodations and provide reliable transportation throughout your journey, ensuring you have a stress-free and enjoyable experience.
+                  We handpick luxurious accommodations and provide reliable transportation throughout your journey,
+                  ensuring you have a stress-free and enjoyable experience.
                 </p>
               </div>
               <div class="card-icon-wrap mt-3 d-flex justify-content-between">
@@ -794,7 +885,7 @@
         <div class="col-lg-4 col-sm-6">
           <div class="card">
             <div class="card-img-box">
-              <a href="#"><img src="./assets/captions/room (14).jpg" class="card-img-top" alt="room-4"></a>
+              <a href="../springsmattserenehotel/vegas.html"><img src="../springsmattserenehotel/assets/captions/room (14).jpg" class="card-img-top" alt="room-4"></a>
             </div>
             <div class="card-body">
               <div class="title-wrap">
@@ -802,7 +893,8 @@
               </div>
               <div class="text-wrap">
                 <p class="card-text">
-                  The ultimate haven of relaxation and elegance at SpringsMatt Hotel.Situated in a serene setting that evokes the tranquility of a true oasis,our lounge offers a perfect blend of luxury and comfort.
+                  The ultimate haven of relaxation and elegance at SpringsMatt Hotel.Situated in a serene setting that
+                  evokes the tranquility of a true oasis,our lounge offers a perfect blend of luxury and comfort.
                 </p>
               </div>
               <div class="card-icon-wrap mt-3 d-flex justify-content-between">
@@ -831,14 +923,15 @@
           <div class="row g-3">
             <div class="col-lg-3 col-sm-6">
               <div class="footer-img-wrap">
-                <a href="./" class="footer-img-logo"><img loading="lazy" class="mb-3" src="./assets/icons/logo.jpeg"
-                    alt="hotel-main-logo"></a>
+                <a href="../springsmattserenehotel/index.html" class="footer-img-logo"><img loading="lazy" class="mb-3"
+                    src="../springsmattserenehotel/assets/icons/logo.jpeg" alt="hotel-main-logo"></a>
               </div>
               <div class="footer-hotel-desc">
                 <p class="mb-3">
                   Discover a world of luxury and comfort at Springsmatt Serene Hotel, where our array of
                   facilities are designed to cater to your every need and enhance your stay. From elegant accommodations
-                  to exquisite dining and versatile event spaces, we offer a comprehensive range of amenities to ensure a
+                  to exquisite dining and versatile event spaces, we offer a comprehensive range of amenities to ensure
+                  a
                   memorable experience for every guest.</p>
               </div>
             </div>
@@ -847,13 +940,13 @@
                 <h4 class="title">Quick links</h4>
               </div>
               <div class="footer-link-wrap">
-                <a href="/">+ Home</a>
-                <a href="./about.html">+ About us</a>
-                <a href="./contact.html">+ Contact</a>
-                <a href="./heritage.html"> + Serene heritage</a>
-                <a href="./pool.html">+ Swimming pool</a>
-                <a href="./blog.html">+ Blogs</a>
-                <a href="./faq.html">+ FAQ</a>
+                <a href="../springsmattserenehotel/index.html">+ Home</a>
+                <a href="../springsmattserenehotel/about.html">+ About us</a>
+                <a href="../springsmattserenehotel/contact.html">+ Contact</a>
+                <a href="../springsmattserenehotel/heritage.html"> + Serene heritage</a>
+                <a href="../springsmattserenehotel/pool.html">+ Swimming pool</a>
+                <a href="../springsmattserenehotel/blog.html">+ Blogs</a>
+                <a href="../springsmattserenehotel/faq.html">+ FAQ</a>
               </div>
             </div>
             <div class="col-lg-3 col-sm-6">
@@ -861,13 +954,13 @@
                 <h4 class="title">Our services</h4>
               </div>
               <div class="footer-link-wrap">
-                <a href="./room.html">+ Rooms lodges</a>
-                <a href="./dining.html">+ Restaurants</a>
-                <a href="./wellness.html">+ wellness</a>
-                <a href="./honeymoon.html">+ Honeymoon</a>
-                <a href="./conference.html">+ Conference</a>
-                <a href="./leisure.html">+ Leisure activities</a>
-                <a href="./tour.html">+ Tour services</a>
+                <a href="../springsmattserenehotel/room.html">+ Rooms lodges</a>
+                <a href="../springsmattserenehotel/dining.html">+ Restaurants</a>
+                <a href="../springsmattserenehotel/wellness.html">+ wellness</a>
+                <a href="../springsmattserenehotel/honeymoon.html">+ Honeymoon</a>
+                <a href="../springsmattserenehotel/conference.html">+ Conference</a>
+                <a href="../springsmattserenehotel/leisure.html">+ Leisure activities</a>
+                <a href="../springsmattserenehotel/tour.html">+ Tour services</a>
               </div>
             </div>
             <div class="col-lg-4 col-sm-6">
@@ -909,10 +1002,10 @@
               </div>
               <div class="col-auto key-info-wrapper">
                 <div class="term-link-wrap">
-                  <a href="./term.html">Terms of use</a>
+                  <a href="../springsmattserenehotel/term.html">Terms of use</a>
                 </div>
                 <div class="privacy-link-wrap">
-                  <a href="./privacy.html">Privacy policy</a>
+                  <a href="../springsmattserenehotel/privacy.html">Privacy policy</a>
                 </div>
               </div>
             </div>
