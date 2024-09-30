@@ -526,7 +526,7 @@ p {
 }
 
 .banner-box {
-  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/captions/tour\ \(9\).jpg);
+  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/captions/tour\ \(16\).jpg);
 }
 
 .banner-box {
@@ -869,7 +869,7 @@ p {
 /* FAMILY ROOM */
 
 #family-banner {
-  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/captions/room\ \(3\).jpg)
+  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/banner/p-banner.jpg)
 }
 
 .img-auto-wrap a img {
@@ -903,7 +903,7 @@ p {
 
 /* COTTAGE */
 #cottage-banner {
-  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/captions/room\ \(20\).jpg)
+  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/captions/tour\ \(12\).jpg)
 }
 
 #deluxe-banner {
@@ -969,7 +969,7 @@ p {
 }
 
 
-/*  COFERENCE */
+/*  CONFERENCE */
 
 #conference-banner {
   background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/captions/conference\ \(1\).jpg);
@@ -1059,6 +1059,10 @@ p {
   border-bottom-left-radius: 0;
 }
 
+/* HONEYMOON  */
+#honeymoon-banner {
+  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/captions/wed\ \(3\).jpg);
+}
 
 
 

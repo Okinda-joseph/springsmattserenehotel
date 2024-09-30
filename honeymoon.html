@@ -2,83 +2,133 @@
 <html lang="en">
 
 <head>
-  <!-- The required meta tags -->
+  <!-- The required meta tags. This code is needed for responsive design to work.
+      (Responsive design = make the website look good on
+      smaller screen sizes like a phone or a tablet). -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Honeymoons</title>
-  <link rel="stylesheet" href="./css/boostrap.min.css">
-  <link rel="stylesheet" href="./css/boxicons.min.css">
-  <link rel="stylesheet" href="./css/owl.carousel.min.css">
-  <link rel="stylesheet" href="./css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="./css/styles.css">
+  <title>Honeymoon</title>
+  <link rel="stylesheet" href="../springsmattserenehotel/css/boostrap.min.css">
+  <link rel="stylesheet" href="../springsmattserenehotel/css/boxicons.min.css">
+  <link rel="stylesheet" href="../springsmattserenehotel/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="../springsmattserenehotel/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="../springsmattserenehotel/css/styles.css">
+  <!-- Load a font called Roboto from Google Fonts. -->
   <script src="https://kit.fontawesome.com/5bebd170da.js" crossorigin="anonymous"></script>
+
   <!-- favicon -->
-  <link rel="shortcut icon" href="./assets/icons/logo.jpeg" type="image/x-icon">
+  <link rel="shortcut icon" href="../springsmattserenehotel/assets/icons/logo.jpeg" type="image/x-icon">
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar-nav">
   <!-- HEADER -->
-  <header>
-    <div class="top-nav">
-      <div class="container">
-        <div class="row justify-content-between">
-          <div class="col-auto">
-            <p>
-              <i class="bx bx-envelope"></i>
-              <span><a href="mailto:springsmattserenehotel@gmail.com">springsmattserenehotel@gmail.com</a></span>
-            </p>
-            <p>
-              <i class="bx bx-phone-call"></i>
-              <span><a href="tel:+254757205181">+254757205181</a></span>
-            </p>
+  <div class="top-nav">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-auto">
+          <p>
+            <i class="bx bx-envelope"></i>
+            <span><a href="mailto:springsmattserenehotel@gmail.com">springsmattserenehotel@gmail.com</a></span>
+          </p>
+          <p>
+            <i class="bx bx-phone-call"></i>
+            <span><a href="tel:+254757205181">+254757205181</a></span>
+          </p>
+        </div>
+        <div class="col-auto">
+          <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=100081077048215/"><i class="bx bxl-facebook"></i></a>
+            <a href="https://x.com/Springsmathotel"><i class="bx bxl-twitter"></i></a>
+            <a href="https://www.instagram.com/"><i class="bx bxl-instagram"></i></a>
+            <a href="https://www.github.io/okinda-joseph/"><i class="bx bxl-github"></i></a>
+            <a href="https://www.youtube.com/"><i class="bx bxl-youtube"></i></a>
           </div>
-          <div class="col-auto">
-            <div class="social-links">
-              <a href="https://www.facebook.com/profile.php?id=100081077048215/"><i class="bx bxl-facebook"></i></a>
-              <a href="https://x.com/Springsmathotel"><i class="bx bxl-twitter"></i></a>
-              <a href="https://www.instagram.com/"><i class="bx bxl-instagram"></i></a>
-              <a href="https://www.github.io/okinda-joseph/"><i class="bx bxl-github"></i></a>
-              <a href="https://www.youtube.com/"><i class="bx bxl-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-lg bg-white sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="../springsmattserenehotel/index.html">
+        <span>springsmatt</span><span class="span-text">serene </span><span class="text-danger">hotel</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../springsmattserenehotel/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../springsmattserenehotel/offers.html">offers</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="../springsmattserenehotel/room.html" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Rooms
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../springsmattserenehotel/deluxe.html">Deluxe room</a></li>
+              <li><a class="dropdown-item" href="../springsmattserenehotel/club.html">Club room</a></li>
+              <li><a class="dropdown-item" href="../springsmattserenehotel/superior.html">Superior room</a></li>
+              <li><a class="dropdown-item" href="../springsmattserenehotel/corner.html">Corner suite</a></li>
+              <li><a class="dropdown-item" href="../springsmattserenehotel/garden.html">Garden suite</a></li>
+              <li><a class="dropdown-item" href="../springsmattserenehotel/executive.html">Executive suite</a></li>
+              <li><a class="dropdown-item" href="../springsmattserenehotel/business.html">Business suite</a></li>
+              <li><a class="dropdown-item" href="../springsmattserenehotel/state.html">State suite</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="../springsmattserenehotel/dining.html" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Restaurants
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../springsmattserenehotel/cafe.html">Cafe maghreb fine dining</a></li>
+              <li><a class="dropdown-item" href="../springsmattserenehotel/herbs.html">Herbs & spice restaurant</a></li>
+              <li><a class="dropdown-item" href="../springsmattserenehotel/mandhari.html">Mandhari Fine dine
+                  restaurant</a></li>
+              <li><a class="dropdown-item" href="../springsmattserenehotel/waterfall.html">Serene waterfall grill
+                  dine</a></li>
+              <li><a class="dropdown-item" href="../springsmattserenehotel/blooming.html">Blooming plate fine
+                  restaurant</a></li>
+              <li><a class="dropdown-item" href="../springsmattserenehotel/vegas.html">Las vegas lounge</a></li>
+              <li><a class="dropdown-item" href="../springsmattserenehotel/pool-lounge.html">pool bar</a></li>
+              <li><a class="dropdown-item" href="../springsmattserenehotel/room-service.html">room service</a></li>
+            </ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="../springsmattserenehotel/conference.html" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Meetings
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../springsmattserenehotel/conference.html">Conference</a></li>
+              <li><a class="dropdown-item" href="../springsmattserenehotel/booking.html">Proposal</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"></li>
+          <a class="nav-link" href="../springsmattserenehotel/contact.html">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- GENERAL BANNER -->
+  <div class="main-banner-wrapper">
+    <div class="main-banner d-flex align-items-center bg-cover" id="honeymoon-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="title-wrap">
+              <h1 class="title display-3 text-capitalize text-white">Honeymoon</h1>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-    <nav class="navbar navbar-expand-lg bg-white sticky-top">
-      <div class="container">
-        <a class="navbar-brand" href="./">
-          <span>springsmatt</span>serene <span class="text-danger">hotel</span>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="./">home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./offers.html">offers</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./room.html">Rooms</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./dining.html">Restaurants</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./conference.html">Meetings</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./contact.html">contact us</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
+  </div>
   <!-- FOOTER -->
   <footer id="footer">
     <div class="footer">
@@ -87,8 +137,8 @@
           <div class="row g-3">
             <div class="col-lg-3 col-sm-6">
               <div class="footer-img-wrap">
-                <a href="./" class="footer-img-logo"><img loading="lazy" class="mb-3" src="./assets/icons/logo.jpeg"
-                    alt="hotel-main-logo"></a>
+                <a href="../springsmattserenehotel/index.html" class="footer-img-logo"><img loading="lazy" class="mb-3"
+                    src="../springsmattserenehotel/assets/icons/logo.jpeg" alt="hotel-main-logo"></a>
               </div>
               <div class="footer-hotel-desc">
                 <p class="mb-3">
@@ -104,13 +154,13 @@
                 <h4 class="title">Quick links</h4>
               </div>
               <div class="footer-link-wrap">
-                <a href="./">+ Home</a>
-                <a href="./about.html">+ About us</a>
-                <a href="./contact.html">+ Contact</a>
-                <a href="./heritage.html"> + Serene heritage</a>
-                <a href="./pool.html">+ Swimming pool</a>
-                <a href="./blog.html">+ Blogs</a>
-                <a href="./faq.html">+ FAQ</a>
+                <a href="../springsmattserenehotel/index.html">+ Home</a>
+                <a href="../springsmattserenehotel/about.html">+ About us</a>
+                <a href="../springsmattserenehotel/contact.html">+ Contact</a>
+                <a href="../springsmattserenehotel/heritage.html"> + Serene heritage</a>
+                <a href="../springsmattserenehotel/pool.html">+ Swimming pool</a>
+                <a href="../springsmattserenehotel/blog.html">+ Blogs</a>
+                <a href="../springsmattserenehotel/faq.html">+ FAQ</a>
               </div>
             </div>
             <div class="col-lg-3 col-sm-6">
@@ -118,13 +168,13 @@
                 <h4 class="title">Our services</h4>
               </div>
               <div class="footer-link-wrap">
-                <a href="./room.html">+ Rooms lodges</a>
-                <a href="./dining.html">+ Restaurants</a>
-                <a href="./wellness.html">+ wellness</a>
-                <a href="./honeymoon.html">+ Honeymoon</a>
-                <a href="./conference.html">+ Conference</a>
-                <a href="./leisure.html">+ Leisure activities</a>
-                <a href="./tour.html">+ Tour services</a>
+                <a href="../springsmattserenehotel/room.html">+ Rooms lodges</a>
+                <a href="../springsmattserenehotel/dining.html">+ Restaurants</a>
+                <a href="../springsmattserenehotel/wellness.html">+ wellness</a>
+                <a href="../springsmattserenehotel/honeymoon.html">+ Honeymoon</a>
+                <a href="../springsmattserenehotel/conference.html">+ Conference</a>
+                <a href="../springsmattserenehotel/leisure.html">+ Leisure activities</a>
+                <a href="../springsmattserenehotel/tour.html">+ Tour services</a>
               </div>
             </div>
             <div class="col-lg-4 col-sm-6">
@@ -166,21 +216,22 @@
               </div>
               <div class="col-auto key-info-wrapper">
                 <div class="term-link-wrap">
-                  <a href="./term.html">Terms of use<html </div>
-                    <div class="privacy-link-wrap">
-                      <a href="./privacy.html">Privacy policy</a>
-                    </div>
+                  <a href="../springsmattserenehotel/term.html">Terms of use</a>
+                </div>
+                <div class="privacy-link-wrap">
+                  <a href="../springsmattserenehotel/privacy.html">Privacy policy</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
   </footer>
-  <script src="./js/jquery.min.js"></script>
+  <script src="../springsmattserenehotel/js/jquery.min.js"></script>
   <script src="./js/bootstrap.bundle.min.js"></script>
-  <script src="./js/owl.carousel.min.js"></script>
-  <script src="./js/scroll-reveal.min.js"></script>
-  <script src="./js/app.js"></script>
+  <script src="../springsmattserenehotel/js/owl.carousel.min.js"></script>
+  <script src="../springsmattserenehotel/js/scroll-reveal.min.js"></script>
+  <script src="../springsmattserenehotel/js/app.js"></script>
 </body>
 
 </html>
