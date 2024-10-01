@@ -1008,7 +1008,7 @@ p {
 }
 
 #massage-banner {
-  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/blog/blog\ \(58\).jpg);
+  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/blog/listings/captions/blog\ \(58\).jpg);
 }
 
 #healthclub-banner {
@@ -1061,7 +1061,24 @@ p {
 
 /* HONEYMOON  */
 #honeymoon-banner {
-  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/captions/wed\ \(3\).jpg);
+  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/captions/wed\ \(6\).jpg);
+}
+#banquet-banner {
+  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/captions/wed\ \(5\).jpg);
+}
+#wed-venue-banner {
+  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/captions/wed\ \(2\).jpg);
+}
+#wed-cake-banner {
+  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/captions/wed\ \(4\).jpg);
+}
+#wed-dine-banner {
+  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/captions/wed\ \(7\).jpg);
+}
+
+/* OFFERS */
+#offers-banner {
+  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/captions/tour\ \(6\).jpg);
 }
 
 
