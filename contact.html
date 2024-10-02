@@ -152,18 +152,11 @@
                 available to assist you 24/7.
               </p>
             </div>
-            <div class="contact-form-wrapper">
-              <div class="contact-form-box">
-                <div class="title-wrap mt-4 title-left">
-                  <h4 class="card-title title">Contact form</h4>
-                </div>
-              </div>
-            </div>
           </div>
           <div class="col-lg-4 col-md-8 col-sm-10">
             <div class="contact-box">
               <div class="title-wrap mt-4 title-left">
-                <h4 class="card-title title pb-3">Contact details</h4>
+                <h4 class="card-title title">Contact details</h4>
               </div>
               <div class="contact-body mt-3">
                 <div class="contact-data mb-2">
@@ -204,6 +197,69 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- CONTACT FORM -->
+  <section id="contact-form" class="pt-0 pb-0">
+    <div class="contact-form-wrapper">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="title-wrap mb-4 title-left">
+              <h4 class="card-title title">Contact form</h4>
+            </div>
+            <form action="https://api.web3forms.com/submit" method="POST" class="row g-3">
+              <input type="hidden" name="access_key" value="c328fa9e-4f44-4c98-ae35-3b46c31f233c">
+              <div class="col-md-6">
+                <label for="inputFirstname" class="form-label">Firstname**</label>
+                <input type="text" class="form-control" id="inputFirstname" placeholder="Kayle" required>
+              </div>
+              <div class="col-md-6">
+                <label for="inputLastname" class="form-label">Lastname**</label>
+                <input type="text" class="form-control" id="inputLastname" placeholder="lyles" required>
+              </div>
+              <div class=" col-12">
+                <label for="exampleFormControlInput1" class="form-label">Email**</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1"
+                  placeholder="kaylelyles12@gmail.com" required>
+              </div>
+              <div class="col-md-6">
+                <label for="inputCity" class="form-label">City**</label>
+                <input type="text" class="form-control" id="inputCity" placeholder="Nairobi" required>
+              </div>
+              <div class="col-md-4">
+                <label for="inputState" class="form-label">State</label>
+                <select id="inputState" class="form-select">
+                  <option selected>Choose state your origin</option>
+                  <option value="1">Nairobi</option>
+                  <option value="2">Mombasa</option>
+                  <option value="3">Nakuru</option>
+                  <option value="4">Kisumu</option>
+                  <option value="5">Eldoret</option>
+                  <option value="6">Kakamega</option>
+                  <option value="7">Bungoma</option>
+                  <option value="8">Kwale</option>
+                  <option value="9">Kiambu</option>
+                  <option value="10">Machakos</option>
+                  <option value="11">Kajiado</option>
+                  <option value="12">Makueni</option>
+                  <option value="13">Kisii</option>
+                  <option value="14">Kilifi</option>
+                  <option value="14">Others</option>
+                </select>
+              </div>
+              <div class="col-12">
+                <label for="exampleFormControlTextarea1" class="form-label">Message**</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"
+                  placeholder="Wow your amazing guys..." maxlength="100"></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-secondary">Send message</button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
