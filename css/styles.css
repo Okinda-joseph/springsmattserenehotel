@@ -1128,6 +1128,20 @@ p {
 }
 
 
+/* RESTAURANTS DININGS */
+
+#restaurant-banner {
+  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/banner/header\ \(10\).jpg);
+}
+
+#dining-banner {
+  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/menu/banner\ \(3\).jpg);
+}
+
+#dining-banner .text-wrap h5 span {
+  color: var(--bs-body-color) !important;
+}
+
 
 
 
