@@ -1142,6 +1142,13 @@ p {
   color: var(--bs-body-color) !important;
 }
 
+#dine-btn {
+  padding: 10px 40px !important;
+  text-transform: uppercase !important;
+  font-weight: var(--bs-font-weight-700) !important;
+  font-size: 26px !important;
+}
+
 
 
 
