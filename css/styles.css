@@ -1143,12 +1143,23 @@ p {
 }
 
 #dine-btn {
-  padding: 10px 40px !important;
+  padding: 10px 20px !important;
   text-transform: uppercase !important;
   font-weight: var(--bs-font-weight-700) !important;
-  font-size: 26px !important;
+  font-size: 18px !important;
 }
 
+
+.text-center.mb-4 {
+  max-width: 800px !important;
+  margin: auto;
+}
+
+
+.menu-card-img {
+  height: 200px !important;
+  object-fit: cover !important;
+}
 
 
 
