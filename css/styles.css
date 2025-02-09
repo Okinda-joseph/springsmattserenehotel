@@ -1017,7 +1017,7 @@ p {
 
 /*  TOUR  */
 #tour-banner {
-  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/offers/caption\ \(8\).jpg);
+  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/captions/tour\ \(4\).jpg);
 }
 
 #term-banner {
@@ -1161,6 +1161,21 @@ p {
   object-fit: cover !important;
 }
 
+
+/* CAFE MAGHREB  */
+
+#cafe-banner {
+  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/menu/menu\ \(13\).png);
+}
+
+#herbs-banner {
+  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/menu/banner\ \(19\).jpg);
+}
+
+.card-image {
+  height: 180px !important;
+  object-fit: cover;
+}
 
 
 
