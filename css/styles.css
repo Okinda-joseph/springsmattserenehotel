@@ -673,6 +673,7 @@ p {
   width: 100%;
   height: 350px !important;
   object-fit: cover !important;
+  border-radius: 5px !important;
 }
 
 .about-text {
@@ -1135,7 +1136,7 @@ p {
 }
 
 #dining-banner {
-  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/menu/banner\ \(3\).jpg);
+  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/blog/listings/captions/blog\ \(1\).jpg);
 }
 
 #dining-banner .text-wrap h5 span {
@@ -1154,10 +1155,8 @@ p {
   max-width: 800px !important;
   margin: auto;
 }
-
-
 .menu-card-img {
-  height: 200px !important;
+  height: 150px !important;
   object-fit: cover !important;
 }
 
@@ -1165,16 +1164,43 @@ p {
 /* CAFE MAGHREB  */
 
 #cafe-banner {
-  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/menu/menu\ \(13\).png);
+  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/blog/listings/captions/blog\ \(15\).jpg);
 }
 
 #herbs-banner {
-  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/menu/banner\ \(19\).jpg);
+  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/blog/listings/listings-800/blog\ \(157\).jpg);
 }
 
 .card-image {
   height: 180px !important;
   object-fit: cover;
+}
+#mandhari-banner {
+  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/blog/listings/captions/blog\ \(164\).jpg);
+}
+#waterfall-banner {
+  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/blog/listings/listings-800/blog\ \(60\).jpg);
+}
+#room-service {
+  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/offers/caption\ \(15\).jpg);
+}
+#blooming-banner {
+  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/banner/header\ \(10\).jpg);
+}
+#vegas-banner {
+  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/blog/listings/captions/blog\ \(11\).jpg);
+}
+#blog-banner {
+  background: linear-gradient(rgba(4, 7, 32, 0.6), rgba(4, 7, 32, 0.6)), url(../assets/blog/listings/captions/blog\ \(47\).jpg);
+}
+.card-img-top.card-image-blog {
+  height: 100px !important;
+  object-fit: cover !important;
+}
+.card.blog .card-text {
+  font-weight: var(--bs-font-weight-600) !important;
+  color: var(--bs-light-text) !important;
+  overflow: hidden !important;
 }
 
 
